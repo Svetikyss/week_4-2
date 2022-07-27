@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    
+    <button id="fortuneButton">Get a fortune</button>
+    <div>
+      <label>
+        Inspiring the Happy, Good and Funny in Life or Bad mood
+      </label>
+      <select>
+        <option value="Happy">Inspiring</option>
+        <option value="bad mood">Bad mood</option>
+      </select>
+      <button id="category-submit" >Get it</button>
+    </div>
+
+    <section id="add-mood">
+      Enter your mood:
+      <input type="text" id="add-category">
+      <br>
+      <textarea type="text" rows="20" cols="30" id="add-mood" placeholder="enter what you like..."></textarea>
+      <button id="add-btn">Add </button>
+    </section>
+
+    <section id="delete-mood">
+      <input type="text" id="delete-input" placeholder="enter mood">
+      <button id="delete-mood-btn">Delete mood</button>
+    </section>
+
+    <section id="display-section"></section>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
